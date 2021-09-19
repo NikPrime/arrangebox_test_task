@@ -1,0 +1,134 @@
+#main_container_id {
+    justify-content: center;
+    margin: 0 auto;
+    width: 85%;
+    position: relative;
+}
+
+#button_add_new_control_id {
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    z-index: 1;
+}
+
+#buttons_main_control_id {
+    padding-left: 40px;
+    padding-right: 40px;
+    min-width: 200px;
+}
+
+.main_div_class {
+    margin-bottom: 40px;
+}
+
+.list_buttons_div {
+    display: flex;
+    justify-content: center;
+}
+
+.div_outer {
+    display: flex;
+    align-items: flex-start;
+    width: 518px;
+    height: 630px;
+    border: 1px solid #60a3bc;
+    border-style: dashed;
+}
+
+.div_outer > *:first-child {
+    align-self: center;
+    display: block;
+}
+
+.input_class {
+    width: 452px;
+    height: 23px;
+    font-size: 14px;
+    border-radius: 6px;
+}
+
+.list_buttons_class {
+    margin-top: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: #60a3bc;
+    color: aliceblue;
+    border-radius: 20px;
+    border-color: aliceblue;
+    border-style: solid;
+}
+
+.main_button_class {
+    margin-top: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: #60a3bc;
+    color: aliceblue;
+    border-radius: 20px;
+    border-color: aliceblue;
+    border-style: solid;
+}
+
+.main_button_class:active,
+.list_buttons_class:active {
+    border-color: #60a3bc;
+}
+
+.div_list {
+    display: flex;
+    font-size: 25px;
+    height: 533px;
+    list-style-type: none;
+    overflow-y: scroll;
+    border: 1px solid #60a3bc;
+    border-style: dashed;
+    margin-top: 10px;
+}
+
+.ul_class {
+    height: 400px;
+    width: 460px;
+    border-radius: 5px;
+    padding-inline-start: 0px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.list_elem {
+    outline: 1px solid #60a3bc;
+    outline-style: dashed;
+    list-style-type: none;
+}
+
+.list_elem_active {
+    outline: 1px solid #60a3bc;
+    outline-style: dashed;
+    list-style-type: none;
+    background-color: #ccf1f1;
+}
+
+.list_elem_div {
+    display: flex;
+    pointer-events: none;
+}
+
+.list_elem_div > div {
+    flex: 1 1 auto;
+    margin: 5px;
+}
+
+.div_list_item_name {
+    text-align: left;
+}
+
+.div_list_item_price {
+    text-align: right;
+    font-size: 14px;
+    pointer-events: none;
+}
+
+.div_control_name {
+    text-align: center;
+    font-size: x-large;
+}
